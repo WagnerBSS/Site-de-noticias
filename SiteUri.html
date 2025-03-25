@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Uri Campus - Santiago</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .footer-column {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="imagem.png" alt="Logotipo da Universidade" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home"><strong>Home</strong></a></li>
+                    <li><a href="#cursos"><strong>Cursos</strong></a></li>
+                    <li><a href="#sobre"><strong>Sobre</strong></a></li>
+                    <li><a href="#contato"><strong>Contato</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    
+    <section id="noticia" style="text-align: center; padding: 20px;">
+        <h2 style="font-size: 2rem; color: #333;">Mercado de Trabalho de Programação Web</h2>
+        <p style="font-size: 1.1rem; color: #555; line-height: 1.6;">O mercado de trabalho para desenvolvedores web está em alta, com uma grande demanda por profissionais qualificados em diversas áreas da programação. A tecnologia está em constante evolução, criando novas oportunidades e desafios para os programadores.</p>
+        <p><a href="https://programae.org.br/web/como-esta-o-mercado-para-desenvolvedor-web/" target="_blank"  style="color: #007BFF; font-weight: bold; text-decoration: none;">Leia Mais</a></p>
+        <div style="max-width: 100%; overflow: hidden; display: flex; justify-content: center;">
+            <img src="imagem1.png" alt="Logotipo Noticias" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+        </div>
+    </section>
+    
+    
+    <section id="destaques">
+        <h2>Destaques</h2>
+        <div class="noticias-container">
+            <article> 
+                <h3>E-commer em alta</h3>
+                <p>O crescimento do e-commerce impulsiona a busca por desenvolvedores web.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+            <article>
+                <h3>Novas tecnologias</h3>
+                <p>Novas tecnologias emergem no mercado de programação.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+            <article>
+                <h3>Já sabe programar?</h3>
+                <p>Aprender a programar pode ser um diferencial na sua carreira.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <div class="cursos-container">
+            <article class="curso">
+                <h3>Administração</h3>
+                <p>Curso voltado para gestão empresarial, desenvolvimento de estratégias e liderança.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+            <article class="curso">
+                <h3>Farmácia</h3>
+                <p>Estudo dos medicamentos, suas formulações e o impacto na saúde da população.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+            <article class="curso">
+                <h3>Ciência da Computação</h3>
+                <p>Formação em desenvolvimento de software, inteligência artificial e computação em nuvem.</p>
+                <a href="#">Leia Mais</a>
+            </article>
+        </div>
+    </section>
+    
+    <section id="formulario-contato">
+        <h2>Entre em contato!</h2>
+        <div class="form-container">
+            <form id="contatoForm">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+    
+            <!-- Balão de mensagem enviada -->
+            <div class="balao" id="balaoMensagem">
+                <h3>Sua mensagem enviada foi:</h3>
+                <p id="mensagemEnviada"></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 20px; background-color: #04cdff; color: #141111;">
+        <div class="footer-column">
+            <h4>Links Úteis</h4>
+            <ul style="list-style: none; padding: 0;">
+                <li>
+                    <a href="https://portal.uri.br/FrameHTML//web/app/edu/PortalEducacional/#/" target="_blank" rel="noopener noreferrer">
+                        Portal do Aluno
+                    </a>
+                </li>
+                <li>
+                    <a href="https://login.vitalsource.com/backfill?brand=integrada.minhabiblioteca.com.br&redirect_uri=https%3A%2F%2Fintegrada.minhabiblioteca.com.br%2Fbooks%2F" target="_blank" rel="noopener noreferrer">
+                        Biblioteca
+                    </a>
+                </li>
+                <li>
+                    <a href="https://portal.uri.br/FrameHTML//web/app/edu/PortalEducacional/#/quadro-horario" target="_blank" rel="noopener noreferrer">
+                        Calendário Acadêmico
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <div class="contact-header" style="display: flex; align-items: center; gap: 10px;">
+                <img src="telefone.png" alt="Ícone de Telefone" style="max-width: 20px;">
+                <h4><strong>Contato</strong></h4>
+            </div>
+            <address style="font-style: normal;">
+                <p>Av. Batista Bonoto Sobrinho, 733</p>
+                <p>São Vicente, Santiago - RS, 97700-000</p>
+                <p>Telefone: (55) 3251-3151</p>
+                <p>E-mail: <a href="mailto:contato@universidade.com">contato@universidade.com</a></p>
+            </address>
+        </div>
+        
+<div class="footer-column">
+    <h4 id="jorge"><strong>Redes Sociais</strong></h4>
+    <ul class="social-media-list" style="list-style: none; padding: 0; display: flex; gap: 15px;">
+        <li>
+            <a href="https://www.facebook.com/escoladaurisantiago/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
+                <img src="facebook.png" alt="Facebook" style="max-width: 20px;">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/uristgo/status/1240667864828387328" target="_blank" rel="noopener noreferrer">
+                <img src="twitter.png" alt="Twitter" style="max-width: 20px;">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/uri.santiago/" target="_blank" rel="noopener noreferrer">
+                <img src="instagram.png" alt="Instagram" style="max-width: 20px;">
+            </a>
+        </li>
+    </ul>
+</div>
+
+    </footer>
+</body>
+</html>
