@@ -1,5 +1,4 @@
-# Site Institucional da Universidade Regional Integrada (URI) - Campus Santiago
-
+# Projeto de aprendizado em desenvolvimento web com HTML, CSS e JavaScript. Simula um site institucional com notícias, destaques, cursos e formulário de contato interativo. 
 ![Banner do Site](caminho/para/imagem/banner.png)
 
 ## Descrição
